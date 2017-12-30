@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{85218c26-2514-4286-ba0f-5de87cb15a70}</ProjectGuid>
+    <ProjectGuid>{85218C26-2514-4286-BA0F-5DE87CB15A70}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ESPEasy</RootNamespace>
@@ -17,7 +17,6 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>ESPEasy_TemporaryKey.pfx</PackageCertificateKeyFile>
-    
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -171,6 +170,75 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\Entypo.ttf">
+      <Link>Assets\Entypo.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\EvilIcons.ttf">
+      <Link>Assets\EvilIcons.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\Feather.ttf">
+      <Link>Assets\Feather.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\FontAwesome.ttf">
+      <Link>Assets\FontAwesome.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\Foundation.ttf">
+      <Link>Assets\Foundation.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\Ionicons.ttf">
+      <Link>Assets\Ionicons.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\MaterialCommunityIcons.ttf">
+      <Link>Assets\MaterialCommunityIcons.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\MaterialIcons.ttf">
+      <Link>Assets\MaterialIcons.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\Octicons.ttf">
+      <Link>Assets\Octicons.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\SimpleLineIcons.ttf">
+      <Link>Assets\SimpleLineIcons.ttf</Link>
+    </Content>
+    <Content Include="..\..\node_modules\react-native-vector-icons\Fonts\Zocial.ttf">
+      <Link>Assets\Zocial.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-Black.ttf">
+      <Link>Assets\Roboto-Black.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-BlackItalic.ttf">
+      <Link>Assets\Roboto-BlackItalic.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-Bold.ttf">
+      <Link>Assets\Roboto-Bold.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-BoldItalic.ttf">
+      <Link>Assets\Roboto-BoldItalic.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-Italic.ttf">
+      <Link>Assets\Roboto-Italic.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-Light.ttf">
+      <Link>Assets\Roboto-Light.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-LightItalic.ttf">
+      <Link>Assets\Roboto-LightItalic.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-Medium.ttf">
+      <Link>Assets\Roboto-Medium.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-MediumItalic.ttf">
+      <Link>Assets\Roboto-MediumItalic.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-Regular.ttf">
+      <Link>Assets\Roboto-Regular.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-Thin.ttf">
+      <Link>Assets\Roboto-Thin.ttf</Link>
+    </Content>
+    <Content Include="..\..\assets\fonts\Roboto\Roboto-ThinItalic.ttf">
+      <Link>Assets\Roboto-ThinItalic.ttf</Link>
+    </Content>
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
